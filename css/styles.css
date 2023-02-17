@@ -2,3 +2,52 @@
   --color-gold: #d5966c;
   --color-almost-black: #151515;
 }
+
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: outfit;
+}
+
+h1,
+h2,
+h3,
+.btn {
+  font-family: 'big shoulders display';
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h1,
+p {
+  margin: 3.2rem 0;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 6rem;
+}
+
+h2 {
+  font-size: 5rem;
+  line-height: 5rem;
+  margin: 2rem 0;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p {
+  color: #444;
+  line-height: 3rem;
+  margin: 0;
+}
+
+p,
+ul {
+  font-size: 1.8rem;
+}
