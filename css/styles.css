@@ -87,3 +87,17 @@ ul {
 a {
   text-decoration: none;
 }
+
+/* Icons */
+.icon__list {
+  display: flex;
+  gap: 2rem;
+}
+
+.icon {
+  font-size: 3rem;
+}
+
+.icon > a {
+  color: #fff;
+}
