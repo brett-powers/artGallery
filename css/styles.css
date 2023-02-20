@@ -142,3 +142,33 @@ a {
   padding: 2rem;
   transition: background 0.3s;
 }
+
+/* Hero */
+.hero__img {
+  width: 100%;
+}
+
+.hero__img-tablet,
+.hero__img-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__img-mobile {
+    display: none;
+  }
+
+  .hero__img-tablet {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero__img-tablet {
+    display: none;
+  }
+
+  .hero__img-desktop {
+    display: block;
+  }
+}
