@@ -101,3 +101,44 @@ a {
 .icon > a {
   color: #fff;
 }
+
+/* Buttons */
+.btn-container {
+  display: inline-block;
+}
+
+.btn {
+  align-items: center;
+  background: var(--color-almost-black);
+  border: none;
+  color: #fff;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 600;
+  gap: 2rem;
+  letter-spacing: 3px;
+  outline: none;
+  transition: background 0.3s;
+}
+
+.btn--primary {
+  padding-left: 2rem;
+}
+
+.btn:hover {
+  background: var(--color-gold);
+}
+
+.btn:hover .btn-icon {
+  background: var(--color-almost-black);
+}
+
+.btn--secondary {
+  padding-right: 2rem;
+}
+
+.btn-icon {
+  background: var(--color-gold);
+  padding: 2rem;
+  transition: background 0.3s;
+}
