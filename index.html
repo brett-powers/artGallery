@@ -24,15 +24,18 @@
         <picture>
           <source
             media="(min-width: 1024px)"
-            srcset="images/image-hero-DT.jpg"
+            srcset="images/image-hero-DT, images/image-hero-DT.jpg"
           />
           <source
             media="(min-width: 768px)"
-            srcset="images/image-hero@2x-tablet.jpg"
+            srcset="
+              images/image-hero-tablet.jpg,
+              images/image-hero@2x-tablet.jpg
+            "
           />
           <source
             media="(max-width: 767px)"
-            srcset="images/image-hero@2x.jpg"
+            srcset="images/image-hero.jpg, images/image-hero@2x.jpg"
           />
           <img class="hero__img" src="images/image-hero.jpg" alt="" />
         </picture>
