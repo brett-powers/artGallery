@@ -22,28 +22,19 @@
     <header>
       <section class="hero">
         <picture>
-          <source srcset="images/image-hero@2x.jpg" />
-          <img
-            class="hero__img hero__img-mobile"
-            src="images/image-hero.jpg"
-            alt=""
+          <source
+            media="(min-width: 1024px)"
+            srcset="images/image-hero-DT.jpg"
           />
-        </picture>
-        <picture>
-          <source srcset="images/image-hero@2x-tablet.jpg" />
-          <img
-            class="hero__img hero__img-tablet"
-            src="images/image-hero-tablet.jpg"
-            alt=""
+          <source
+            media="(min-width: 768px)"
+            srcset="images/image-hero@2x-tablet.jpg"
           />
-        </picture>
-        <picture>
-          <source srcset="images/image-hero@2x-DT.jpg" />
-          <img
-            class="hero__img hero__img-desktop"
-            src="images/image-hero-DT.jpg"
-            alt=""
+          <source
+            media="(max-width: 767px)"
+            srcset="images/image-hero@2x.jpg"
           />
+          <img class="hero__img" src="images/image-hero.jpg" alt="" />
         </picture>
       </section>
     </header>
