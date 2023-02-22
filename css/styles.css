@@ -142,3 +142,29 @@ a {
   padding: 2rem;
   transition: background 0.3s;
 }
+
+/* Hero */
+.hero__img {
+  width: 100%;
+}
+
+.hero__btn {
+  margin-top: 4rem;
+}
+
+.hero__space-filler {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .hero__text {
+    position: relative;
+    right: 45px;
+  }
+}
