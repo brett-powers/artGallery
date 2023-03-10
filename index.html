@@ -18,5 +18,150 @@
     ></script>
     <title>ArtGallery</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <section class="hero">
+        <picture>
+          <source
+            media="(min-width: 1024px)"
+            srcset="images/image-hero-DT.jpg, images/image-hero@2x-DT.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              images/image-hero-tablet.jpg,
+              images/image-hero@2x-tablet.jpg
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="images/image-hero.jpg, images/image-hero@2x.jpg"
+          />
+          <img class="hero__img" src="images/image-hero.jpg" alt="" />
+        </picture>
+        <div class="hero__text">
+          <h1>
+            Modern <br />
+            art gallery
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            velit laudantium, eaque nesciunt reprehenderit deserunt. Totam
+            laudantium vero animi, cupiditate laboriosam recusandae corporis in
+            minus pariatur ad? Molestiae, inventore at.
+          </p>
+          <div class="btn-container hero__btn">
+            <a class="btn btn--primary" href="#"
+              >our location
+              <img class="btn-icon" src="images/icon-arrow-right.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main class="feature">
+      <div class="feature__top">
+        <picture>
+          <source
+            media="(min-width: 1024px)"
+            srcset="images/image-grid-1-DT.jpg, images/image-grid-1@2x-DT.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              images/image-grid-1-tablet.jpg,
+              images/image-grid-1@2x-tablet.jpg
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="images/image-grid-1.jpg, images/image-grid-1@2x.jpg"
+          />
+          <img class="feature__img-1" src="images/image-grid-1.jpg" alt="" />
+        </picture>
+        <div class="feature__text">
+          <h2>your day at the gallery</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eos
+            quidem odio ipsum, accusamus aliquam facere quos error ullam eius,
+            itaque optio, adipisci excepturi quis.
+          </p>
+        </div>
+      </div>
+      <div class="feature__grid">
+        <picture class="feature__grid-img-2">
+          <source
+            media="(min-width: 1024px)"
+            srcset="images/image-grid-2-DT.jpg, images/image-grid-2@2x-DT.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              images/image-grid-2-tablet.jpg,
+              images/image-grid-2@2x-tablet.jpg
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="images/image-grid-2.jpg, images/image-grid-2@2x.jpg"
+          />
+          <img class="feature__img-2" src="images/image-grid-2.jpg" alt="" />
+        </picture>
+        <picture class="feature__grid-img-3">
+          <source
+            media="(min-width: 1024px)"
+            srcset="images/image-grid-3-DT.jpg, images/image-grid-3@2x-DT.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              images/image-grid-3-tablet.jpg,
+              images/image-grid-3@2x-tablet.jpg
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="images/image-grid-3.jpg, images/image-grid-3@2x.jpg"
+          />
+          <img class="feature__img-3" src="images/image-grid-3.jpg" alt="" />
+        </picture>
+        <div class="feature__black-block">
+          <h2>
+            Come & <br />
+            be inspired
+          </h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae
+            laudantium minima ipsum libero eveniet placeat mollitia dolorum
+            pariatur iusto unde deleniti facilis velit, atque delectus!
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <img class="footer__img" src="images/logo-light.svg" alt="" />
+      <p class="footer__text">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, tempora
+        in labore autem veritatis, nisi cupiditate porro officia error totam
+        unde? Distinctio, impedit minima. Ratione.
+      </p>
+      <ul class="list icon__list">
+        <li class="icon">
+          <a href="#">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+        </li>
+        <li class="icon">
+          <a href="#">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li class="icon">
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
