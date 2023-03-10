@@ -239,3 +239,31 @@ a {
     width: 30%;
   }
 }
+
+/* Footer */
+.footer {
+  background: var(--color-almost-black);
+  padding: 3rem 5rem;
+}
+
+.footer__text {
+  color: #fff;
+  margin: 4rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem 0;
+  }
+
+  .footer__img {
+    object-fit: contain;
+  }
+
+  .footer__text {
+    width: 50%;
+  }
+}
