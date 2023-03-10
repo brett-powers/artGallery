@@ -241,9 +241,10 @@ a {
 }
 
 /* Footer */
-.footer {
+footer {
   background: var(--color-almost-black);
   padding: 3rem 5rem;
+  margin-top: 15rem;
 }
 
 .footer__text {
@@ -252,7 +253,7 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
+  footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
