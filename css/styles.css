@@ -268,3 +268,13 @@ footer {
     width: 50%;
   }
 }
+
+/* Location Hero */
+.location-hero__btn {
+  position: absolute;
+  top: 0;
+}
+
+.location-hero__img {
+  width: 100%;
+}
