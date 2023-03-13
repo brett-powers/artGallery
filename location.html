@@ -18,5 +18,29 @@
     ></script>
     <title>ArtGallery-location</title>
   </head>
-  <body></body>
+  <body>
+    <header class="location-hero">
+      <div class="btn-container location-hero__btn">
+        <a class="btn btn--secondary" href="index.html">
+          <img class="btn-icon" src="images/icon-arrow-left.svg" alt="" />
+          back to home
+        </a>
+      </div>
+      <picture>
+        <source
+          media="(min-width: 1024px)"
+          srcset="images/image-map@2x-DT.png, images/image-map-DT.png"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="images/image-map@2x-tablet.png, images/image-map-tablet.png"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="images/image-map@2x.png, images/image-map.png"
+        />
+        <img class="location-hero__img" src="images/image-map.png" alt="" />
+      </picture>
+    </header>
+  </body>
 </html>
