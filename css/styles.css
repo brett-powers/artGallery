@@ -278,3 +278,47 @@ footer {
 .location-hero__img {
   width: 100%;
 }
+
+/* Location Main */
+.location-main {
+  background: var(--color-almost-black);
+  padding: 4.8rem 0;
+}
+
+.location-main__header,
+.location-main__text,
+.location-main__list {
+  color: #fff;
+}
+
+.location-main__header {
+  margin: 0;
+  margin-bottom: 4.8rem;
+}
+
+.location-main__street {
+  color: var(--color-gold);
+}
+
+.location-main__list {
+  margin-bottom: 2rem;
+}
+
+.location-main__list li {
+  padding: 0.5rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .location-main {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .location-main__header {
+    width: 25rem;
+  }
+
+  .location-main__text-block {
+    width: 40rem;
+  }
+}
