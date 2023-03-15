@@ -322,3 +322,18 @@ footer {
     width: 40rem;
   }
 }
+
+/* Location Footer */
+.location-footer {
+  background: var(--color-gold);
+  margin: 0;
+}
+
+.location-footer__text {
+  color: var(--color-almost-black);
+  margin-top: 4rem;
+}
+
+.location-footer__icon > a {
+  color: var(--color-almost-black);
+}
